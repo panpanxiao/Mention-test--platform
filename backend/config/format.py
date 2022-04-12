@@ -1,15 +1,12 @@
-# format.py
+# 数据库配置
+MYSQL_HOST = 'localhost'
+MYSQL_PORT = xxx
+MYSQL_DATABASE = 'xxx'
+MYSQL_USER = 'root'
+MYSQL_PASSWORD = 'xxxxxxx'
 
-resp_format_success = {
-    "code": 20000,
-    "message": "success",
-    "data": [],
-    "total": 0
-}
 
-resp_format_failed = {
-    "code": 40000,
-    "message": "failed",
-    "data": [],
-    "total": 0
-}
+MAIL_HOST = "smtp.exmail.qq.com"
+MAIL_PORT = 465
+MAIL_USER = "xxxxxi@mrzcode.com"
+MAIL_PASSWORD = "Test@2021"
